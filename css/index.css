@@ -1,0 +1,156 @@
+.swiper-container{
+    --swiper-theme-color: #ff6600;
+    --swiper-pagination-color: #ff6a00;/* 两种都可以 */
+  }
+  .swiper-pagination{
+	  color: #000000;
+	  border-radius: 0;
+	 
+  }
+  /*  
+  .banner-img{
+	  height: 535px;
+	  width: 100%;
+  }
+  */
+  .banner-box1{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  background-image: url(../img/banner1.jpg);
+	  background-size: 100% 535px;
+	
+  }
+  .banner-box2{
+  	  display: flex;
+  	  align-items: center;
+  	  justify-content: center;
+  	  background-image: url(../img/banner2.jpg);
+  	  background-size: 100% 535px;
+
+  }
+  .bannertext-box{
+	  width: 80%;
+  }
+  .bannertoptext{
+	  font-size: 42px;
+	      color: #181818;
+	      line-height: 48px;
+	      margin-bottom: 15px;
+	      opacity: 1;
+	      min-height: 48px;
+	      cursor: default;
+		  margin-top: 80px;
+  }
+  .bannerbottomtext{
+	  width: 580px;
+	      height: 60px;
+	      overflow: hidden;
+	      text-overflow: ellipsis;
+	      display: -webkit-box;
+	      -webkit-line-clamp: 2;
+	      font-size: 16px;
+	      color: #181818;
+	      line-height: 30px;
+	      margin-bottom: 20px;
+	      opacity: 1;
+	      cursor: default;
+  }
+  #bannerbotton{
+	  background-color: #ff6a00;
+	  width: 138px;
+	  transition: all .1s linear;
+	  height: 42px;
+	  font-size: 16px;
+	  margin-bottom: 80px;
+	  border: #FF6A00 solid 1px;
+	 
+  }
+  
+  .swiper-slide-active img,.swiper-slide-duplicate-active img{
+          transition:6s linear;
+          transform:scale(1,1);
+  }
+  
+/*包裹自定义分页器的div的位置等CSS样式*/
+			.swiper-pagination-custom {
+				bottom: 10px;
+				left: 10%;
+				width: 80%;
+				text-align: left;
+			}
+			/*自定义分页器的样式，这个你自己想要什么样子自己写*/
+			.swiper-pagination-customs {
+				width: 36px;
+				height: 4px;
+				display: inline-block;
+				background: #FFFFFF;
+				margin: 0 5px;
+			}
+			/*自定义分页器激活时的样式表现*/
+			.swiper-pagination-customs-active {
+				opacity: 1;
+				background-color: #F78E00;
+			}
+  .item-box{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  
+  }
+  .layui-col-md2{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+  }
+  .item-img{
+	  display: block;
+	  width: 100%;
+  }
+  .item-text{
+	  display: inline-block;
+  }
+  .text-box{
+	  margin:3% 0;
+	
+	  
+  }
+  .text-box-zykk{
+	  color: #999;
+	   border: 1px solid #bbb;
+  }
+  .text-box-qqh{
+  	  color: #999;
+  	   border: 1px solid #bbb;
+  }
+  .text-box-zdgqzm{
+  	  color: #999;
+  	   border: 1px solid #bbb;
+  }
+  .text-box-ydb{
+  	  color: #999;
+  	   border: 1px solid #bbb;
+  }
+  .text-box-ydyt{
+  	  color: #999;
+  	  border: 1px solid #bbb;
+  }
+  .bottomtext{
+	  text-align: center;
+	 
+  }
+  .toptext-zygkk{
+	  color: #ff6a00;
+	  border: 1px solid #ff6a00;
+	  text-align: center;
+  }
+  *{
+	  margin: 0;
+	  padding: 0;
+  }
+  .middletext{
+	  margin: 10px 0;
+	  color: #999
+  }
+	  
+ 
